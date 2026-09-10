@@ -598,7 +598,7 @@ user_pref("_user.js.parrot", "2700 syntax error: the parrot's joined the bleedin
  * [1] https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/
  * [SETTING] to add site exceptions: Urlbar>ETP Shield
  * [SETTING] to manage site exceptions: Options>Privacy & Security>Enhanced Tracking Protection>Manage Exceptions ***/
-user_pref("browser.contentblocking.category", "strict"); // [HIDDEN PREF]
+user_pref("browser.contentblocking.category", "standard"); // [HIDDEN PREF]
 /* 2702: disable ETP web compat features (about:compat) [FF93+]
  * [SETUP-HARDEN] Includes skip lists, heuristics (SmartBlock) and automatic grants
  * Opener and redirect heuristics are granted for 30 days, see [3]
